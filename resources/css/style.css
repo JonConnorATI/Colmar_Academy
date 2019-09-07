@@ -33,7 +33,7 @@ p.logo--text {
 
 }
 
-.logo--text span {
+.logo--text #colmar {
     font-weight: bolder;
     color: rgb(6, 6, 26);
 }
@@ -52,4 +52,36 @@ p.logo--text {
 
 
 }
+
+/*Media Queries for Nav*/
+
+/*Hide Nav bar text when width less than 600px*/
+@media screen and (max-width: 600px) {
+    .flex-container, span {
+        display: none;
+    }
+
+    .flex-container-device {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 1.5rem 0 1.5rem;
+    height: 4rem;
+    background: white;
+}
+    
+}
+
+
+/*Hide nav bar when text greater than 600px */
+
+@media screen and (min-width: 601px) {
+    .flex-container-device {
+        display: none;
+    }
+    
+}
+
+
 
