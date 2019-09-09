@@ -39,13 +39,41 @@ margin-right: 1.5rem;
 
 }
 
-.content-one {
+.banner-content {
     background: lightgrey;
-    background-image: url(resources/images/banner.jpg);
+    
+}
+
+.banner { 
+    width: 100%;
+    
+}
+
+.content-one-text h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.content-one-text h3 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 
-
+.start--button {
+    width: 80%;
+    height: 3rem;
+    font-size: 1.5rem;
+    background: darkslategray;
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    align-items: center;
+    border: none;
+}
 
 
 
