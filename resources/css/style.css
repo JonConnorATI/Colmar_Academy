@@ -1,87 +1,61 @@
+
+/*reset defaults*/
 * {
     padding: 0;
     margin: 0;
+    
 }
 
+/*Make reference font size (1 rem = 16px) and default font*/
 html {
     font-size: 16px;
     font-family: Helvetica, arial, sans-serif;
+   
 }
 
-
-
-.flex-container {
+/*Navigation bar*/
+.flex-container-device {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 0 auto;
     height: 4rem;
     background: white;
-}
-
-   
-
-
-p.logo--text {
-    display: flex;
-    text-transform: uppercase;
-    flex-direction: row;
-    align-items: center;
-    color: grey;
-    
+    opacity: 0.99;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 
 }
 
-.logo--text #colmar {
-    font-weight: bolder;
-    color: rgb(6, 6, 26);
-}
-
-.navigation--desktop {
-    list-style: none;
-    display: flex;
+img.logo {
+margin-left:1.5rem;
 
 }
 
-.navigation--desktop a {
-    display: block;
-    padding: 0 0 0 1rem;
-    text-decoration: none;
-    color: grey;
-
+a.signin {
+margin-right: 1.5rem;
 
 }
 
-/*Media Queries for Nav*/
+.content-one {
+    background: lightgrey;
+    background-image: url(resources/images/banner.jpg);
+}
 
-/*Hide Nav bar text when width less than 600px*/
-@media screen and (max-width: 600px) {
+
+
+
+
+
+
+
+ /*Media Queries for Nav*/
+
+/*Hide Nav bar text when width less than 800px*/
+@media screen and (min-width: 1px) {
     .flex-container, span {
         display: none;
     }
-
-    .flex-container-device {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 0 1.5rem 0 1.5rem;
-    height: 4rem;
-    background: white;
 }
-    
-}
-
-
-/*Hide nav bar when text greater than 600px */
-
-@media screen and (min-width: 601px) {
-    .flex-container-device {
-        display: none;
-    }
-    
-}
-
-
-
