@@ -12,6 +12,10 @@ html {
    
 }
 
+/*Hides the mobile nav when using this sheet*/
+.flex-container-device {
+    display: none;
+}
 
 /*Header*/
 .flex-container {
@@ -73,7 +77,7 @@ a.signin {
     margin-right: 1.5rem;
 }
 
-/*Container (flex) for image text and button */
+/*1st Container (flex) for image text and button */
  .content-one {
     display: flex;
     justify-content: space-between;
@@ -86,7 +90,7 @@ a.signin {
 
 /*image*/
 .banner {
-    padding: 2rem 1.5rem;
+    padding: 2rem 2.5rem 2rem 1.5rem;
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -128,3 +132,89 @@ a.signin {
     text-decoration: none;
     color: white;
 }
+
+/*Container a */
+.practicing-content {
+    background: white;
+    margin: 0;
+    padding: 0;  
+}
+
+/*Container B*/
+.flex-practicing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+   
+
+}
+
+/*Part1*/
+
+
+.practicing-one {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+     
+}
+
+/*main image*/
+
+.practicing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+/*Part2*/
+.practicing-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    max-width:423px;
+
+}
+
+/*small images*/
+
+.orientation,
+.campus,
+.guest {
+    width: 35%;
+
+}
+.container-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+   
+/*Part3
+.practicing-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}*/
+
+
