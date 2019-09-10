@@ -1,8 +1,15 @@
+
+
+
+
+/*reset defaults*/
 * {
     padding: 0;
     margin: 0;
+    
 }
 
+/*Make reference font size (1 rem = 16px) and default font*/
 html {
     font-size: 16px;
     font-family: Helvetica, arial, sans-serif;
@@ -10,7 +17,7 @@ html {
 }
 
 
-
+/*Header*/
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -23,16 +30,12 @@ html {
     position: fixed;
     z-index: 100;
     width: 100%;
-    
-    
-   
-   
-    
+     
 }
 
    
 
-
+/* Text for Logo */
 p.logo--text {
     display: flex;
     text-transform: uppercase;
@@ -43,81 +46,44 @@ p.logo--text {
     
 
 }
-
+/* Colmar darker */
 .logo--text #colmar {
     font-weight: bolder;
     color: rgb(6, 6, 26);
 }
 
+/*Navigation*/
 .navigation--desktop {
     list-style: none;
     display: flex;
-     margin-right: 1.5rem;
+    margin-right: 1.5rem;
 
 }
-
+/*Navigation List*/
 .navigation--desktop a {
     display: block;
     padding: 0 0 0 1rem;
     text-decoration: none;
     color: grey;
    
-
-
 }
 
-/*Media Queries for Nav*/
-
-/*Hide Nav bar text when width less than 600px*/
-@media screen and (max-width: 600px) {
-    .flex-container, span {
-        display: none;
-    }
-
-    .flex-container-device {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 0 auto;
-    height: 4rem;
-    background: white;
-    opacity: 0.99;
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-    
-
-}
-
+/*Margin left of logo-Navigation*/
 img.logo {
     margin-left:1.5rem;
 }
-
+/*Margin right of Navigation*/
 a.signin {
     margin-right: 1.5rem;
 }
 
-
-    
-}
-
-
-/*Hide nav bar when text greater than 600px */
-
-@media screen and (min-width: 800px) {
-    .flex-container-device {
-        display: none;
-    }
-    
-}
 
  .content-one {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding-top: 4rem;
+    padding-top: 2rem;
     width: 100%;
     background: grey;
  }

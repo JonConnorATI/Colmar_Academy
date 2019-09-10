@@ -43,25 +43,31 @@ margin-right: 1.5rem;
 
 .banner-content {
     background: grey;
+  
     
 }
 
+/*Image*/
 .banner { 
     width: 100%;
+    top:0;
     
 }
 
+
+/*h1 Test*/
 .content-one-text h1 {
     margin-top: 2rem;
     margin-left: 1rem;
 }
 
+/*h3 Text*/
 .content-one-text h3 {
     margin-top: 2rem;
     margin-left: 1rem;
 }
 
-
+/*Button*/
 .start--button {
     width: 90%;
     height: 3rem;
@@ -81,12 +87,12 @@ margin-right: 1.5rem;
 
 
 
- /*Media Queries for Nav*/
 
-/*Hide Nav desktop text when this sheet is being used*/
 
-@media screen and (min-width: 10px) {
+
+/*This Hides Nav desktop text when this sheet is being used*/
+
+ 
     .flex-container, span {
         display: none;
-    }
 }
