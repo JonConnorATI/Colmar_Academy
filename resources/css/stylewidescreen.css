@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     
 }
 
@@ -68,7 +69,7 @@ p.logo--text {
 
 /*Margin left of logo-Navigation*/
 img.logo {
-    margin-left:1.5rem;
+    margin: 0;
 
 }
 
@@ -94,6 +95,7 @@ a.signin {
     display: flex;
     flex-direction: column;
     width: 60%;
+    flex-shrink: 1;
 }
 
 /*secondary container for Text and button*/
