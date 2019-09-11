@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 /*set default font size to 10px now 1rem = 10px, 2rem = 20px etc
@@ -17,8 +17,7 @@ body {
 .main {
     margin: .1rem solid white;
     display: flex;
-    box-sizing: border-box;
-   
+    
 }
 
 .navigation--bar {
@@ -31,8 +30,7 @@ body {
     position: fixed;
     z-index: 100;
     width: 100%;
-    margin-bottom: 1.6rem;
-    padding-top: 1.6rem
+    
    
             
 }
@@ -43,17 +41,19 @@ body {
     padding-right: 2.4rem;
 }
 
-.navigation--logo {
+#navigation--image {
     padding-left: 2.4rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 
 }
 
 .banner {
-    max-height: 18rem;
-    border: 1px solid grey;
+    object-fit: initial;
     width: 100%;
+    min-height: 18.3rem;
+    
 }
-
 
     
     
