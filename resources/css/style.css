@@ -49,7 +49,7 @@ body {
 }
 
 .banner {
-    object-fit: initial;
+    object-fit: scale-down;
     width: 100%;
     min-height: 18.3rem;
     
