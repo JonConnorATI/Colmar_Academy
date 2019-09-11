@@ -1,0 +1,67 @@
+/*remove defaults*/
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+/*set default font size to 10px now 1rem = 10px, 2rem = 20px etc
+Font Family */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+}
+
+/*Main container set to flex column now all items will stack on top*/
+.main {
+    margin: .1rem solid white;
+    display: flex;
+    box-sizing: border-box;
+   
+}
+
+.navigation--bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: white;
+    opacity: 0.99;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin-bottom: 1.6rem;
+    padding-top: 1.6rem
+   
+            
+}
+
+
+
+#list--last {
+    padding-right: 2.4rem;
+}
+
+.navigation--logo {
+    padding-left: 2.4rem;
+
+}
+
+.banner {
+    max-height: 18rem;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+
+    
+    
+    
+
+
+
+   
+
+   
+
