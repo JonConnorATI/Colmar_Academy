@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    background: white;
+    background: slategray;
     opacity: 0.99;
     position: fixed;
     z-index: 100;
@@ -45,6 +45,12 @@ body {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
 
+}
+/*used this to "push the image down - don't understand margin/padding - but this works!!*/
+.auxilary {
+    color: slategray;
+    background-color: slategray;
+    padding-bottom: 3rem;
 }
 
 /*The banner image is resposive to resizing for phones this was the best I could get it*/
@@ -95,15 +101,57 @@ body {
     text-decoration: none;
     font-size: 1.8rem;
     color: white;
-    
 }
     
     
-    
+/*Orientation Section*/
+.Orientation--main {
+    display: flex;
+    border: 0.1rem solid grey;
+    background: rgb(177, 165, 165);
+}   
 
-
-
+.orientation--container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3.2rem;
    
+}
 
+/*Trial and error with margins and width. Looks OK but don't understand how it works*/
+.orientation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+    width: auto;
+    height: 20rem;
+    border: .1rem solid grey;
+    margin: 1.6rem;
+}
+
+ .orientation--container h2, 
+ .orientation--container p, 
+ .orientation--container a {
+    display: flex;
+    margin-left: 3.2rem;
+}  
+
+.orientation--container h2,
+.orientation--container p {
+    margin-bottom: .5rem
+ }
    
+.orientation--container h2 {
+    font-size: 2.5rem;
+    letter-spacing: .15rem;
+}
 
+.orientation--container p {
+    font-size: 1.6rem;
+}
+
+.orientation--container a {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
