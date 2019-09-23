@@ -37,11 +37,11 @@ body {
 
 /*Targeted last item in Nav for rhs space away from edge*/
 #list--last {
-    padding-right: 2.4rem;
+    padding-right: 1.6rem;
 }
 /*Targeted the logo icon as any other items caused me problems*/
 #navigation--image {
-    padding-left: 2.4rem;
+    padding-left: 1.6rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
 
@@ -69,13 +69,13 @@ body {
     background-color: grey;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    
 }
 
 /*banner text - headers, paragraph, button and spacing*/
 
 .banner--text--holder {
-    margin-left: 1.6rem;
+    margin: 0 1.6rem;
 }
 
 .banner--text--holder h1  {
@@ -90,7 +90,7 @@ body {
 }
 
 .banner--button {
-    width: 80%;
+    width: 100%;
     padding: 0.4rem 0;
     background-color: rgb(37, 36, 36);
     border: none;
@@ -107,14 +107,16 @@ body {
 /*Orientation Section*/
 .Orientation--main {
     display: flex;
-    border: 0.1rem solid grey;
-    background: rgb(177, 165, 165);
+    border: 0.1rem solid black;
+    
 }   
 
 .orientation--container {
     display: flex;
     flex-direction: column;
     padding-bottom: 3.2rem;
+   
+    background-color: rgb(189, 174, 174);
    
 }
 
@@ -155,3 +157,33 @@ body {
     font-size: 1.6rem;
     text-decoration: none;
 }
+
+/*StartLearning Section */
+.startlearning--main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+    padding-top: 3.2rem;
+    
+
+}
+
+/*Title*/
+.startlearning--main h1  {
+    font-size: 2.5rem;
+    margin-bottom: 3.2rem;
+    
+}
+
+
+.startlearning--buttons {
+    display: flex;
+    flex-direction: column;
+   
+    margin: 0 1.6rem;
+}
+
+
+
